@@ -158,7 +158,7 @@ giveBayesFactorZeroOne <- function(deltaSamples, paired = TRUE, cauchyScale  = 1
 }
 
 set.seed(42)
-s=10 # simulation size
+s=1000 # simulation size
 alpha_pre=c(0.1,0.05,0.01,1) # pretest levels
 n=c(10,20,30,40,50,60,70,80) # sample sizes
 
