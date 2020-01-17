@@ -10,6 +10,6 @@ Scripts sim7.R, sim8.R and sim9.R produce the results for the two-stage procedur
 
 Scripts sim10.R, sim11.R and sim12.R provide the results for the type II error rates (beta levels) given in the paper.
 
-To produce the figures, run script plots.R, which already includes the results of simulations one to nine, as these may run from multiple hours to multiple days depending on the machine.
+To produce the figures, run script plots.R, which already includes the results of simulations 1 to 12, as these may run from multiple hours to multiple days depending on the machine.
 
 It is heavily recommended to run these scripts on a high-performance computing cluster, as the code is already parallelized for four physical cores, and single scripts may take several days to run depending on the machine used.
